@@ -1,0 +1,8 @@
+# Nichts aus Build-Ordnern, falls mal ein Plugin-Ordner hier landet
+bin/
+obj/
+*.user
+
+# Windows-Krempel
+Thumbs.db
+desktop.ini
