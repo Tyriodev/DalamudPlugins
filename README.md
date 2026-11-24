@@ -77,5 +77,3 @@ None of them automate anything. No combat help, no doing things for you. They re
 the game already shows and display it differently, or keep notes.
 
 Dalamud plugins are third-party software and have nothing to do with Square Enix.
-
-Setup notes for my own machine are in [ANLEITUNG.md](ANLEITUNG.md), in German.
