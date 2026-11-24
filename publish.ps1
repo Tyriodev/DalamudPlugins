@@ -116,6 +116,23 @@ if ($null -eq $entry) {
 $entry.AssemblyVersion = $version
 $entry.LastUpdate = [string][DateTimeOffset]::UtcNow.ToUnixTimeSeconds()
 
+# Das Manifest des Plugins ist die Wahrheit. Alles, was dort steht und auch im
+# Katalog auftaucht, wird hier nachgezogen - sonst zeigt die Plugin-Liste ewig
+# den Text von damals, waehrend im Plugin selbst laengst ein neuer steht.
+$uebernommen = @()
+foreach ($feld in @('Name', 'Description', 'Punchline', 'Author', 'DalamudApiLevel', 'Tags', 'CategoryTags')) {
+    if ($null -ne $manifest.$feld) {
+        # Add-Member -Force statt einfacher Zuweisung: legt das Feld an, falls der
+        # Eintrag es noch gar nicht hat, und ueberschreibt es sonst.
+        $entry | Add-Member -NotePropertyName $feld -NotePropertyValue $manifest.$feld -Force
+        $uebernommen += $feld
+    }
+}
+
+if ($uebernommen.Count -gt 0) {
+    Write-Host "Aus dem Manifest uebernommen: $($uebernommen -join ', ')"
+}
+
 Write-TextNoBom -Path $repoPath -Text (ConvertTo-Json -InputObject @($entries) -Depth 10)
 
 Write-Host ""

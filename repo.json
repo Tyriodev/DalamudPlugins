@@ -1,15 +1,22 @@
 [
     {
-        "Author":  "Marcel",
-        "Name":  "Wayfarer\u0027s Diary",
         "InternalName":  "WayfarersDiary",
         "AssemblyVersion":  "0.2.0.0",
-        "Description":  "Fuehrt ein Tagebuch deiner Spielzeit: wie lange du in welcher Zone warst, was du dort gemacht hast (Kampf, Duty, Handwerk, Sammeln, Reittier, Leerlauf), wann du zuletzt dort warst, und ein Jahresrueckblick. Alles lokal, nichts wird hochgeladen.",
-        "Punchline":  "Dein Spielzeit-Tagebuch fuer Eorzea.",
         "ApplicableVersion":  "any",
-        "DalamudApiLevel":  15,
         "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
         "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/WayfarersDiary.png",
+        "IsHide":  false,
+        "IsTestingExclusive":  false,
+        "LoadPriority":  0,
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/WayfarersDiary/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/WayfarersDiary/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/WayfarersDiary/latest.zip",
+        "LastUpdate":  "1795504277",
+        "Name":  "Wayfarer\u0027s Diary",
+        "Description":  "I wanted to know where an evening actually goes, so this writes it down. Which zones, what you were doing there - fighting, crafting, gathering, travelling, or standing still - and how long each one took. It watches whether you move rather than your mouse, so time spent parked in a city doesn\u0027t quietly become play time.\n\nThree views: today, a zone list you can sort any way you like, and a review that reaches back over a year and tells you which zones you set foot in for the first time. CSV export if you would rather look at it in a spreadsheet.\n\nEverything stays on your machine. It reads your zone, your job and whether you are moving, and that is all.",
+        "Punchline":  "Where the evening actually went.",
+        "Author":  "Marcel",
+        "DalamudApiLevel":  15,
         "Tags":  [
                      "statistics",
                      "diary",
@@ -19,26 +26,26 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
+                         ]
+    },
+    {
+        "InternalName":  "ReturnersNote",
+        "AssemblyVersion":  "0.2.0.0",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
+        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/ReturnersNote.png",
         "IsHide":  false,
         "IsTestingExclusive":  false,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/WayfarersDiary/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/WayfarersDiary/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/WayfarersDiary/latest.zip",
-        "LastUpdate":  "1795503629"
-    },
-    {
-        "Author":  "Marcel",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/ReturnersNote/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/ReturnersNote/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/ReturnersNote/latest.zip",
+        "LastUpdate":  "1795504278",
         "Name":  "Returner\u0027s Note",
-        "InternalName":  "ReturnersNote",
-        "AssemblyVersion":  "0.2.0.0",
-        "Description":  "Nach einer Pause zeigt dir das Plugin beim Einloggen, wie lange du weg warst, wo du aufgehoert hast, welche Notiz du deinem zukuenftigen Ich hinterlassen hast, was du dir vorgenommen hattest und was nach so langer Abwesenheit zu pruefen ist. Alles lokal, nichts wird hochgeladen.",
-        "Punchline":  "Willkommen zurueck - hier ist, wo du aufgehoert hast.",
-        "ApplicableVersion":  "any",
+        "Description":  "Coming back after a few months, the hard part is not the patch notes. It is not remembering what you were in the middle of. So before you stop playing you leave yourself a note, and it is waiting at the next login - along with how long you were gone, where you were standing, which job you were on, and whatever you had written down as plans.\n\nThe longer you were away, the more it puts on the list: retainers, expired listings, the island, the demolition timer on a house. A weekend off gets you a short list. Half a year gets you the whole thing.\n\nNothing is sent anywhere and nothing is done for you. It is a note to your future self with some bookkeeping attached.",
+        "Punchline":  "Welcome back. Here is where you left off.",
+        "Author":  "Marcel",
         "DalamudApiLevel":  15,
-        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
-        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/ReturnersNote.png",
         "Tags":  [
                      "returning",
                      "welcome back",
@@ -48,26 +55,26 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
+                         ]
+    },
+    {
+        "InternalName":  "MarketPager",
+        "AssemblyVersion":  "0.2.0.0",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
+        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/MarketPager.png",
         "IsHide":  false,
         "IsTestingExclusive":  false,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/ReturnersNote/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/ReturnersNote/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/ReturnersNote/latest.zip",
-        "LastUpdate":  "1795503631"
-    },
-    {
-        "Author":  "Marcel",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
+        "LastUpdate":  "1795504279",
         "Name":  "Market Pager",
-        "InternalName":  "MarketPager",
-        "AssemblyVersion":  "0.2.0.0",
-        "Description":  "Watches market board prices through Universalis and pushes an alert to your phone when something you care about happens: an item drops below the price you set, or someone undercuts one of your listings. Supports ntfy, Pushover and plain webhooks (including Discord). No automation, no game memory access - it only reads item names from the game data and talks to Universalis.",
+        "Description":  "I got tired of standing at a retainer bell refreshing one price. This watches it instead and sends my phone a message when something actually happens: an item drops under the price I set, or someone undercuts one of my listings.\n\nWorks with ntfy, Pushover, or any plain webhook, Discord included. Quiet hours so it does not go off at three in the morning, and a log of what it caught while you were away.\n\nPrices come from Universalis. It never touches the market board itself and it does not read game memory - it takes item names from the game data and asks a website about prices.",
         "Punchline":  "Market board alerts on your phone.",
-        "ApplicableVersion":  "any",
+        "Author":  "Marcel",
         "DalamudApiLevel":  15,
-        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
-        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/MarketPager.png",
         "Tags":  [
                      "market",
                      "marketboard",
@@ -78,26 +85,26 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
+                         ]
+    },
+    {
+        "InternalName":  "Clutter",
+        "AssemblyVersion":  "0.2.0.0",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
+        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Clutter.png",
         "IsHide":  false,
         "IsTestingExclusive":  false,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
-        "LastUpdate":  "1795503632"
-    },
-    {
-        "Author":  "Marcel",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
+        "LastUpdate":  "1795504280",
         "Name":  "Clutter",
-        "InternalName":  "Clutter",
-        "AssemblyVersion":  "0.2.0.0",
-        "Description":  "Looks through your bags and says what is safe to let go. Every stack gets a verdict with a reason: crafting material you should keep, gear you have outgrown, leftovers worth a trip to the vendor. It never sells or discards anything - you stay in charge, it just does the thinking.",
+        "Description":  "My bags fill up with things I am afraid to throw away because I cannot remember whether they matter. So this goes through them and gives every stack a verdict with the reason behind it: crafting material you will want, gear you have outgrown, leftovers worth a trip to the vendor, junk.\n\nIt also says \"not sure\", and means it. I would rather check twice than vendor something I needed, so anything it cannot judge with confidence gets labelled that way instead of guessed at.\n\nIt never sells, discards or moves anything. You do that. It just does the thinking.",
         "Punchline":  "Find out what in your bags you can let go.",
-        "ApplicableVersion":  "any",
+        "Author":  "Marcel",
         "DalamudApiLevel":  15,
-        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
-        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Clutter.png",
         "Tags":  [
                      "inventory",
                      "cleanup",
@@ -107,26 +114,26 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
+                         ]
+    },
+    {
+        "InternalName":  "LevelForecast",
+        "AssemblyVersion":  "0.2.0.0",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
+        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/LevelForecast.png",
         "IsHide":  false,
         "IsTestingExclusive":  false,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
-        "LastUpdate":  "1795503634"
-    },
-    {
-        "Author":  "Marcel",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/LevelForecast/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/LevelForecast/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/LevelForecast/latest.zip",
+        "LastUpdate":  "1795504281",
         "Name":  "Level Forecast",
-        "InternalName":  "LevelForecast",
-        "AssemblyVersion":  "0.2.0.0",
-        "Description":  "Measures how fast you actually gain experience and turns it into an answer: at this pace, your current job reaches the next level in 35 minutes and level 100 in about four hours of play. Keeps a per job history, so the estimate gets better the longer you use it. Reads only your own levels and experience, changes nothing.",
+        "Description":  "One more run or call it a night? This answers that. It measures how fast you are gaining experience right now - not what a guide claims - and turns it into a time: at this pace the next level is 35 minutes away, and the cap is about four hours of play.\n\nIt keeps a history per job, so the longer you use it the less it has to guess. When your pace changes because a buff ran out or you moved to slower content, the estimate follows within a few minutes.\n\nIt reads your level and your experience. Nothing else, nothing written anywhere but your own config.",
         "Punchline":  "How long until the next level, measured rather than guessed.",
-        "ApplicableVersion":  "any",
+        "Author":  "Marcel",
         "DalamudApiLevel":  15,
-        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
-        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/LevelForecast.png",
         "Tags":  [
                      "experience",
                      "levelling",
@@ -135,26 +142,26 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
+                         ]
+    },
+    {
+        "InternalName":  "SessionPlanner",
+        "AssemblyVersion":  "0.2.0.0",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
+        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/SessionPlanner.png",
         "IsHide":  false,
         "IsTestingExclusive":  false,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/LevelForecast/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/LevelForecast/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/LevelForecast/latest.zip",
-        "LastUpdate":  "1795503635"
-    },
-    {
-        "Author":  "Marcel",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/SessionPlanner/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/SessionPlanner/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/SessionPlanner/latest.zip",
+        "LastUpdate":  "1795504282",
         "Name":  "Session Planner",
-        "InternalName":  "SessionPlanner",
-        "AssemblyVersion":  "0.2.0.0",
         "Description":  "I kept logging in with half an hour before dinner and burning ten of those minutes deciding what to do with it. So this asks one question: how long have you got? Then it shows what actually fits.\n\nThe point is that it doesn\u0027t guess. It quietly times your duties in the background, queue included, so after a week it knows an Expert roulette costs you about 27 minutes and not the 20 you tell yourself. Anything it cannot measure sits in a list you can edit with your own numbers. Daily and weekly resets are counted down next to it, because the roulette you forget is usually the one that was about to reset.\n\nIt presses no buttons for you. It just answers a question you would otherwise answer badly.",
         "Punchline":  "Tell it how long you have. It tells you what fits.",
-        "ApplicableVersion":  "any",
+        "Author":  "Marcel",
         "DalamudApiLevel":  15,
-        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
-        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/SessionPlanner.png",
         "Tags":  [
                      "planner",
                      "duty",
@@ -164,26 +171,26 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
+                         ]
+    },
+    {
+        "InternalName":  "Glacier",
+        "AssemblyVersion":  "0.4.1.0",
+        "ApplicableVersion":  "any",
+        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
+        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Glacier.png",
         "IsHide":  false,
         "IsTestingExclusive":  false,
         "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/SessionPlanner/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/SessionPlanner/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/SessionPlanner/latest.zip",
-        "LastUpdate":  "1795503636"
-    },
-    {
-        "Author":  "Marcel",
+        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
+        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
+        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
+        "LastUpdate":  "1795504283",
         "Name":  "Glacier",
-        "InternalName":  "Glacier",
-        "AssemblyVersion":  "0.4.1.0",
         "Description":  "A HUD of my own, because the default one has looked the same for a decade. It draws your health with shields and a mana bar, your target with its distance and cast bar, target of target, focus target, your own cast bar, your pet, your party with role colours and job icons, an alliance list, a rebuilt enemy list, two rows of status effects with timers, and a job gauge that follows whatever you are playing. Everything is a flat panel you can drag anywhere, in one of four colour themes or in colours you pick yourself, slot by slot.\\n\\nIt checks your screen on the first run and picks a size that fits it, so it does not arrive as a row of postage stamps on a 4K monitor. Layouts can be saved as profiles and passed around as a single line of text.\\n\\nIt sits on top of the game rather than replacing anything, so nothing can break: hide the pieces you no longer want in the game\u0027s own HUD layout editor and the new ones take over. Unlock, drag everything where you want it, lock again.\\n\\nHealth bars leave a pale trail behind a hit so you can see how much was taken, not just what is left, and the cast bar marks the half second before the end where you can already move. No automation, no combat help - it only shows you numbers the game already shows you, in a shape I like better.",
         "Punchline":  "A different face for the game.",
-        "ApplicableVersion":  "any",
+        "Author":  "Marcel",
         "DalamudApiLevel":  15,
-        "RepoUrl":  "https://github.com/Tyriodev/DalamudPlugins",
-        "IconUrl":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Glacier.png",
         "Tags":  [
                      "hud",
                      "ui",
@@ -194,13 +201,6 @@
                  ],
         "CategoryTags":  [
                              "utility"
-                         ],
-        "IsHide":  false,
-        "IsTestingExclusive":  false,
-        "LoadPriority":  0,
-        "DownloadLinkInstall":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
-        "DownloadLinkUpdate":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
-        "DownloadLinkTesting":  "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
-        "LastUpdate":  "1795503637"
+                         ]
     }
 ]
