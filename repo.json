@@ -177,7 +177,7 @@
   },
   {
     "InternalName": "Glacier",
-    "AssemblyVersion": "0.6.0.0",
+    "AssemblyVersion": "0.7.0.0",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tyriodev/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Glacier.png",
@@ -187,9 +187,9 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Glacier/latest.zip",
-    "LastUpdate": "1795789588",
+    "LastUpdate": "1795850491",
     "Name": "Glacier",
-    "Description": "A HUD of my own, because the default one has looked the same for a decade. It draws your health with shields and a mana bar, your target with its distance and cast bar, target of target, focus target, your own cast bar, your pet, your party with role colours and job icons, an alliance list, a rebuilt enemy list, two rows of status effects with timers, and a job gauge that follows whatever you are playing. There is also a now playing panel: it reads the media session Windows itself keeps, so Apple Music, Spotify or a browser tab all work without an account or a service, and clicking the panel goes back, pauses or skips.\n\nEverything is a flat panel you can drag anywhere, in one of four colour themes or in colours you pick yourself, slot by slot.\\n\\nIt checks your screen on the first run and picks a size that fits it, so it does not arrive as a row of postage stamps on a 4K monitor. Layouts can be saved as profiles and passed around as a single line of text.\\n\\nIt sits on top of the game rather than replacing anything, so nothing can break: hide the pieces you no longer want in the game\u0027s own HUD layout editor and the new ones take over. Unlock, drag everything where you want it, lock again. There is a demo mode that fills every panel with numbers that are not really there, so you can do the arranging in a city instead of in the middle of a fight.\\n\\nHealth bars leave a pale trail behind a hit so you can see how much was taken, not just what is left, and the cast bar marks the half second before the end where you can already move. No automation, no combat help - it only shows you numbers the game already shows you, in a shape I like better.",
+    "Description": "A HUD of my own, because the default one has looked the same for a decade. It draws your health with shields and a mana bar, your target with its distance and cast bar, target of target, focus target, your own cast bar, your pet, your party with role colours and job icons, an alliance list, a rebuilt enemy list, two rows of status effects with timers, and a job gauge that follows whatever you are playing. There is also a now playing panel: it reads the media session Windows itself keeps, so Apple Music, Spotify or a browser tab all work without an account or a service, and clicking the panel goes back, pauses or skips.\n\nEverything is a flat panel you can drag anywhere, in one of six colour themes or in colours you pick yourself, slot by slot. Two of them glow: Neon puts bright tubes on black glass, Arc does the same in violet but quieter, and a slider says how hard the bars throw light onto whatever is behind them, down to not at all.\\n\\nIt checks your screen on the first run and picks a size that fits it, so it does not arrive as a row of postage stamps on a 4K monitor. Layouts can be saved as profiles and passed around as a single line of text.\\n\\nIt sits on top of the game rather than replacing anything, so nothing can break: hide the pieces you no longer want in the game\u0027s own HUD layout editor and the new ones take over. Unlock, drag everything where you want it, lock again. There is a demo mode that fills every panel with numbers that are not really there, so you can do the arranging in a city instead of in the middle of a fight.\\n\\nHealth bars leave a pale trail behind a hit so you can see how much was taken, not just what is left, and the cast bar marks the half second before the end where you can already move. No automation, no combat help - it only shows you numbers the game already shows you, in a shape I like better.",
     "Punchline": "A different face for the game.",
     "Author": "Marcel",
     "DalamudApiLevel": 15,
@@ -199,7 +199,9 @@
       "overlay",
       "theme",
       "unitframes",
-      "customisation"
+      "customisation",
+      "neon",
+      "glow"
     ],
     "CategoryTags": [
       "utility"
