@@ -89,7 +89,7 @@
   },
   {
     "InternalName": "Clutter",
-    "AssemblyVersion": "0.2.1.0",
+    "AssemblyVersion": "0.2.2.0",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tyriodev/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Clutter.png",
@@ -99,7 +99,7 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
-    "LastUpdate": "1795788757",
+    "LastUpdate": "1795858466",
     "Name": "Clutter",
     "Description": "My bags fill up with things I am afraid to throw away because I cannot remember whether they matter. So this goes through them and gives every stack a verdict with the reason behind it: crafting material you will want, gear you have outgrown, leftovers worth a trip to the vendor, junk.\n\nIt also says \u0022not sure\u0022, and means it. I would rather check twice than vendor something I needed, so anything it cannot judge with confidence gets labelled that way instead of guessed at.\n\nIt never sells, discards or moves anything. You do that. It just does the thinking.",
     "Punchline": "Find out what in your bags you can let go.",
@@ -114,7 +114,8 @@
     ],
     "CategoryTags": [
       "utility"
-    ]
+    ],
+    "Changelog": "fixed some bugs"
   },
   {
     "InternalName": "LevelForecast",
