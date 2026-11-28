@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Prueft eine Plugin-Quelle gegen Attrappen der Dalamud-Oberflaeche, ohne dass das
+    Spiel oder Dalamud installiert sein muessen.
+
+        dotnet build check.csproj -p:Plugin=Glacier
+
+    Erwartet die Plugin-Ordner neben diesem Ordner oder unter dem Pfad in Dev.
+  -->
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <NoWarn>CS8019;CS0067;CS0649;CS8618</NoWarn>
+    <Dev Condition="'$(Dev)' == ''">../..</Dev>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Stubs/*.cs" />
+    <Compile Include="$(Dev)/$(Plugin)/$(Plugin)/**/*.cs"
+             Exclude="$(Dev)/$(Plugin)/$(Plugin)/obj/**;$(Dev)/$(Plugin)/$(Plugin)/bin/**" />
+  </ItemGroup>
+
+</Project>

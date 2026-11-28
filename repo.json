@@ -59,7 +59,7 @@
   },
   {
     "InternalName": "MarketPager",
-    "AssemblyVersion": "0.2.1.0",
+    "AssemblyVersion": "0.3.0.0",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tyriodev/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/MarketPager.png",
@@ -69,9 +69,9 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/MarketPager/latest.zip",
-    "LastUpdate": "1795788756",
+    "LastUpdate": "1795877105",
     "Name": "Market Pager",
-    "Description": "I got tired of standing at a retainer bell refreshing one price. This watches it instead and sends my phone a message when something actually happens: an item drops under the price I set, or someone undercuts one of my listings.\n\nWorks with ntfy, Pushover, or any plain webhook, Discord included. Quiet hours so it does not go off at three in the morning, and a log of what it caught while you were away.\n\nPrices come from Universalis. It never touches the market board itself and it does not read game memory - it takes item names from the game data and asks a website about prices.",
+    "Description": "I got tired of standing at a retainer bell refreshing one price. This watches it instead and sends my phone a message when something actually happens: an item drops under the price I set, or someone undercuts one of my listings.\n\nWorks with ntfy, Pushover, or any plain webhook, Discord included. Quiet hours so it does not go off at three in the morning, and a log of what it caught while you were away.\n\nIt also keeps every price it has seen, so each watch shows a small line of where the price has been and tells you in words whether what you are looking at now is cheap or dear for that item. A number on its own says nothing: 12,000 gil is a bargain or a ripoff depending entirely on what the thing usually goes for.\n\nPrices come from Universalis. It never touches the market board itself and it does not read game memory - it takes item names from the game data and asks a website about prices.",
     "Punchline": "Market board alerts on your phone.",
     "Author": "Marcel",
     "DalamudApiLevel": 15,
@@ -81,7 +81,9 @@
       "universalis",
       "notification",
       "ntfy",
-      "pushover"
+      "pushover",
+      "history",
+      "prices"
     ],
     "CategoryTags": [
       "utility"
@@ -89,7 +91,7 @@
   },
   {
     "InternalName": "Clutter",
-    "AssemblyVersion": "0.2.2.0",
+    "AssemblyVersion": "0.3.0.0",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/Tyriodev/DalamudPlugins",
     "IconUrl": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/images/Clutter.png",
@@ -99,9 +101,9 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/Tyriodev/DalamudPlugins/main/plugins/Clutter/latest.zip",
-    "LastUpdate": "1795858466",
+    "LastUpdate": "1795877104",
     "Name": "Clutter",
-    "Description": "My bags fill up with things I am afraid to throw away because I cannot remember whether they matter. So this goes through them and gives every stack a verdict with the reason behind it: crafting material you will want, gear you have outgrown, leftovers worth a trip to the vendor, junk.\n\nIt also says \u0022not sure\u0022, and means it. I would rather check twice than vendor something I needed, so anything it cannot judge with confidence gets labelled that way instead of guessed at.\n\nIt never sells, discards or moves anything. You do that. It just does the thinking.",
+    "Description": "My bags fill up with things I am afraid to throw away because I cannot remember whether they matter. So this goes through them and gives every stack a verdict with the reason behind it: crafting material you will want, gear you have outgrown, leftovers worth a trip to the vendor, junk.\n\nIt also says \u0022not sure\u0022, and means it. I would rather check twice than vendor something I needed, so anything it cannot judge with confidence gets labelled that way instead of guessed at.\n\nIf you disagree with a verdict, say so and it sticks. Set your own and that item keeps it from then on, through every scan, until you take it back. Working out the same wrong answer about the same item every single time is exactly what makes a tool like this not worth opening.\n\nIt never sells, discards or moves anything. You do that. It just does the thinking.",
     "Punchline": "Find out what in your bags you can let go.",
     "Author": "Marcel",
     "DalamudApiLevel": 15,
@@ -110,12 +112,12 @@
       "cleanup",
       "vendor",
       "crafting",
-      "utility"
+      "utility",
+      "decisions"
     ],
     "CategoryTags": [
       "utility"
-    ],
-    "Changelog": "fixed some bugs"
+    ]
   },
   {
     "InternalName": "LevelForecast",
